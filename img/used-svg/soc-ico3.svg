@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>E25747FC-7FA7-4AB5-B2D3-02B8C92BAEA4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.34855 4.56547009 0.34855 4.56547009 5.06055 0 5.06055"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FOOTER" transform="translate(-1472.000000, -173.000000)">
+            <g id="Social-media">
+                <g transform="translate(1280.000000, 171.000000)">
+                    <g id="Linkedin" transform="translate(192.000000, 2.000000)">
+                        <g id="Group-4">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-3"></g>
+                            <path d="M2.2826862,5.06055 C3.54373626,5.06055 4.56547009,4.00505 4.56547009,2.70405 C4.56547009,1.40355 3.54373626,0.34855 2.2826862,0.34855 C1.02163614,0.34855 -9.76800977e-05,1.40355 -9.76800977e-05,2.70405 C-9.76800977e-05,4.00505 1.02163614,5.06055 2.2826862,5.06055" id="Fill-2" fill="#8F959B" mask="url(#mask-2)"></path>
+                        </g>
+                        <path d="M10.4023443,12.79785 C10.4023443,11.00285 11.2091819,9.93335 12.7544811,9.93335 C14.1742613,9.93335 14.8560684,10.95985 14.8560684,12.79785 L14.8560684,19.49985 L18.698315,19.49985 L18.698315,11.41585 C18.698315,7.99585 16.8047863,6.34285 14.1605861,6.34285 C11.515409,6.34285 10.4023443,8.45235 10.4023443,8.45235 L10.4023443,6.73235 L6.69929182,6.73235 L6.69929182,19.49985 L10.4023443,19.49985 L10.4023443,12.79785 Z" id="Fill-5" fill="#8F959B"></path>
+                        <polygon id="Fill-1" fill="#8F959B" points="0.38974359 19.475 4.44358974 19.475 4.44358974 7.069125 0.38974359 7.069125"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
