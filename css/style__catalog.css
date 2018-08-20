@@ -1,0 +1,175 @@
+/* CATALOG */
+.catalog-page {
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.catalog-page__top-line {
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eff0f1;
+}
+.catalog-page__top-line-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 18px;
+}
+.catalog-page__top-line-amount {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+}
+.catalog-page__top-line-amount span {
+	margin-right: 5px;
+	color: #cc2527;
+}
+
+.catalog-page__wrap-left {
+	width: 420px;
+}
+.catalog-page__menu {
+	width: 260px;
+}
+.catalog-page__menu-item {
+	margin-bottom: 5px;
+}
+.catalog-page__menu-item-content {
+	display: none;
+	padding: 20px 0 30px 0;
+}
+.catalog-page__menu-item-line {
+	padding: 0 10px;
+}
+.catalog-page__menu-item-trigger {
+	height: 48px;
+	padding: 0 10px;
+	background: #f4f7fa;
+	border-bottom: 1px solid #bfc2c6;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.catalog-page__menu-item-trigger:after {
+	content: "";
+	display: block;
+	width: 11px;
+	height: 8px;
+	margin-top: 2px;
+	background: url('../img/select-arrow.svg') center center no-repeat;
+	transition: all 0.4s ease;
+}
+.catalog-page__menu-item-trigger--active:after {
+	transform: rotate(180deg);
+}
+
+.normal-chess {
+	padding-top: 120px;
+}
+.normal-chess__line + .normal-chess__line {
+	margin-top: 80px;
+}
+.normal-chess__header {
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 46px;
+}
+.normal-chess__content {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+.normal-chess__content p {
+	margin-bottom: 0;
+}
+.normal-chess__content p + p {
+	margin-top: 20px;
+}
+.normal-chess__video {
+	display: inline-block;
+	position: relative;
+}
+.normal-chess__video:after {
+	content: "";
+	display: block;
+	width: 86px;
+	height: 66px;
+	background: url('../img/play-icon.svg') center center no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -33px 0 0 -43px;
+	z-index: 2;
+}
+.normal-chess__video img {
+	position: relative;
+	z-index: 1;
+}
+
+
+
+@media (max-width: 1679px) {
+    
+}
+@media (max-width: 1479px) {
+    .catalog-page__wrap-left {
+		width: 100%;
+	}
+}
+@media (max-width: 1199px) {
+    
+}
+@media (max-width: 991px) {
+	.catalog-page__menu-item {
+		margin: 0 -15px;
+	}
+	.catalog-page__menu-item-trigger {
+		padding: 0 15px;
+	}
+	.catalog-page__menu-item-line {
+	    padding: 0 15px;
+	}
+
+	.catalog-page {
+	    padding-top: 30px;
+	    padding-bottom: 40px;
+	}
+	.catalog-page__top-line {
+	    margin-bottom: 0;
+	    padding-bottom: 15px;
+	    border-bottom: none;
+	}
+	.catalog-page__menu {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.catalog-page__content > .row > div:first-child {
+	    padding-bottom: 15px;
+	}
+
+	.normal-chess {
+	    padding-top: 60px;
+	}
+	.normal-chess__line + .normal-chess__line {
+	    margin-top: 40px;
+	}
+	.normal-chess__img {
+		margin-bottom: 30px;
+	}
+	.normal-chess__header {
+	    margin-bottom: 20px;
+	    font-size: 24px;
+	    line-height: 34px;
+	}
+	.normal-chess__content {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+}
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 575px) {
+    
+}
