@@ -40,10 +40,16 @@
 .promotions__block + .promotions__block {
 	margin-top: 100px;
 }
+.promotions__block + .promotions__block--spec-top {
+	margin-top: 0;
+}
 .promotions__top-text {
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 56px;
+}
+.promotions__top-text a:hover {
+	text-decoration: underline;
 }
 .promotions__top-text span {
 	font-weight: 500;

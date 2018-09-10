@@ -249,7 +249,11 @@
     margin-bottom: 40px;
 }
 .linear-sol__item-img {
+    height: 340px;
     margin-bottom: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .linear-sol__item-text {
     font-weight: 500;

@@ -268,7 +268,7 @@
 }
 .blog-page__link {
 	font-size: 14px;
-	line-height: 14px;
+	line-height: 0;
 	color: #a1a3a6;
 }
 .blog-page__link svg {
@@ -467,11 +467,25 @@
 	}
 }
 @media (max-width: 991px) {
+	.blog__cntrl-search {
+		margin-top: 0;
+	}
+	.blog__cntrl-search-input {
+	    height: 49px;
+	}
+	.blog__cntrl-search-button {
+	    height: 49px;
+	}
+
 	.blog__item-img {
 		margin-bottom: 20px;
 	}
 }
 @media (max-width: 767px) {
+	.blog__cntrl-search {
+		margin-top: 15px;
+	}
+
 	.featured .lib__header {
 	    font-size: 24px;
 	    line-height: 24px;

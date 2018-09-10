@@ -23,7 +23,22 @@ $(document).ready(function() {
     
     /* mobile menu */
     $('.mobile-menu__trigger').on('click', function() {
-        $('.mobile-menu').slideToggle(400);
+        if($('.mobile-menu').is(':visible')) {
+            $('.mobile-menu').slideUp(400);
+            $('.mobile-menu__fog').stop().animate({opacity: 0}, 400, function() {
+                $(this).hide();
+            });
+        }
+        else {
+            $('.mobile-menu').slideDown(400);
+            $('.mobile-menu__fog').show().stop().animate({opacity: 1}, 400);
+        }
+    });
+    $('.mobile-menu__fog').on('click', function() {
+        $('.mobile-menu').slideUp(400);
+        $('.mobile-menu__fog').stop().animate({opacity: 0}, 400, function() {
+            $(this).hide();
+        });
     });
     
     
