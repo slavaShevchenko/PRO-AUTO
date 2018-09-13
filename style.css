@@ -54,6 +54,14 @@ p {
 .lib__header-content {
 	margin-bottom: 60px;
 }
+h1.lib__header {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #231f20;
+    text-transform: uppercase;
+}
 h2.lib__header {
     margin-bottom: 0;
     font-weight: 700;
@@ -950,6 +958,10 @@ h4.lib__header {
     /* lib */
     .lib__header-content {
         margin-bottom: 40px;
+    }
+    h1.lib__header {
+        font-size: 32px;
+        line-height: 42px;
     }
     h2.lib__header {
         font-size: 28px;
@@ -2502,5 +2514,34 @@ h4.lib__header {
     }
     .recently-viewed__item {
         padding-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+/* SEARCH */
+.z-top-hide__content {
+    padding-top: 10px;
+}
+.z-top-hide__content .lib__header {
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 767px) {
+    .z-top-hide {
+        margin-bottom: 20px;
+        background: #f6f9fd;
+    }
+    .z-top-hide__content {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .z-top-hide__content .lib__header {
+        margin-bottom: 0;
     }
 }

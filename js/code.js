@@ -313,4 +313,19 @@ $(document).ready(function() {
             }
         }
     });
+
+
+
+
+    /* select2 */
+    if($('.select2-search').length) {
+        $('.select2-search').select2({
+            width : '100%',
+            minimumResultsForSearch: Infinity,
+            theme: 'search'
+        });
+    }
+    $('.select2-search').on('select2:open', function(e){
+        $('.select2-results__options').scrollbar().parent().addClass('scrollbar-inner');
+    });
 });
